@@ -1,0 +1,89 @@
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solicitud de Acompañamiento Psicológico</title>
+    <style>
+        /* Puedes añadir estilos CSS aquí o en un archivo separado */
+    </style>
+</head>
+<body>
+
+
+
+
+    <h1>Acompañamiento Psicológico para Mujeres en Situaciones de Violencia y Dificultad</h1>
+
+
+
+
+    <p>
+        En nuestros servicios, priorizamos el bienestar emocional y la seguridad de las mujeres que están atravesando situaciones de violencia o dificultades en sus vidas. Nuestro equipo de profesionales de la salud mental está dedicado a proporcionar un apoyo compasivo y personalizado, diseñado para empoderar a las mujeres y ayudarlas a recuperar el control sobre sus vidas. Ofrecemos un espacio seguro para expresar emociones, recibir orientación y acceder a recursos vitales. Nuestro objetivo es ser un faro de esperanza y fortaleza en tiempos difíciles, ayudándote a dar los pasos hacia un futuro más seguro y saludable.
+    </p>
+
+
+
+
+<h3>Tipos de Acompañamiento</h3>
+<input type="radio" id="terapia_grupal" name="acompañamiento[]" value="Terapia Grupal">
+<label for="terapia_grupal">Terapia Grupal</label><br>
+
+
+
+
+<input type="radio" id="terapia_individual" name="acompañamiento[]" value="Terapia Individual">
+<label for="terapia_individual">Terapia Individual</label><br>
+
+
+
+
+<input type="radio" id="llamada telefónica" name="acompañamiento[]" value="Llamada Telefónica">
+<label for="llamada_telefonica">Platicar con un Asesor por Llamada Telefónica</label><br>
+
+
+
+
+<input type="radio" id="terapia_virtual" name="acompañamiento[]" value="Terapia Virtual">
+<label for="terapia_virtual">Terapia Virtual</label><br><br>
+
+
+
+
+<h3>Solicitud de Acompañamiento Psicológico</h3>
+    <form action="procesar_acompanamiento.php" method="POST">
+        <label for="nombre">Nombre Completo:</label>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+
+
+
+
+        <label for="email">Correo Electrónico:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+
+
+
+        <label for="telefono">Teléfono de Contacto:</label>
+        <input type="tel" id="telefono" name="telefono" required><br><br>
+
+
+
+
+<label for="motivo">Motivo de Consulta:</label><br>
+<textarea id="motivo" name="motivo" rows="6" cols="50" required></textarea><br><br>
+
+
+
+
+<label for="preferencia">Preferencia de Horario:</label>
+<input type="text" id="preferencia" name="preferencia" required><br><br>
+<input type="submit" value="Enviar Solicitud">
+     
+    </form>
+</body>
+</html>
+
+

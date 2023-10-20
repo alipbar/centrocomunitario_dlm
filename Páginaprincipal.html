@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/4336/4336815.png" type="image/x-icon">
+    <link rel="stylesheet" href="Estilos.css">
+    <link rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Centro Comunitario de la Mujer</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+        h1 { font-size: 30pt;
+          color:#6E3479;
+          font-style: oblique;
+        }
+
+        body{
+          background-color: #d6d1f5;
+            min-height: 100%;
+        }
+        html{
+            height: 100%;
+        }
+        .grid-container > *{
+           text-align: center;
+           border-radius: 15px;
+           padding: 10px;
+        }
+        .fa {
+            font-size: 50px;
+        }
+        .navbar{
+            grid-area: navbar;
+           
+        }
+        .sidebar{
+            grid-area: sidebar ;
+            
+        }
+        .main{
+            grid-area: main;
+            color:#6E3479;
+            
+        }
+        .section{
+            grid-area: section;
+        }
+        .footer{
+            grid-area: footer;
+        }
+        /*Teléfono*/
+        .grid-container{
+            display: grid;
+            gap: 10px;
+            grid-template-columns: auto ;
+            grid-template-areas: 
+            "navbar"
+            "sidebar"
+            "main"
+            "section"
+            "footer"
+            ;
+        }
+        /*Para tablet*/
+        @media(min-width:768px){
+            .grid-container{
+                grid-template-columns: auto ;
+                grid-template-areas: 
+                "navbar navbar"
+                "sidebar sidebar"
+                "main main"
+                "section section"
+                "footer footer";
+            }
+        }
+        /*Para escritorio*/
+        @media(min-width:900px){
+            .grid-container{
+                grid-template-columns: 200px auto ;
+                grid-template-areas: 
+                "navbar navbar navbar"
+                "sidebar sidebar sidebar"
+                "main main main"
+                "section section section"
+                "footer footer footer";
+            }
+        }
+
+    </style>
+</head>
+<body class="grid-container">
+    <nav class="navbar">
+        <div class="logo">
+        <img id="img1" src="https://cdn-icons-png.flaticon.com/512/4336/4336815.png"  height="400px" /> 
+    </div>
+            <a href="#SobreNosotras" class="tarjeta1">Nosotras</a>
+            <a href="#Mision" class="tarjeta2">Misión</a>
+            <a href="#Vision" class="tarjeta3">Visión</a>
+
+        <div class="rrss">
+          <a
+          href="https://www.facebook.com/"
+          target="_blank"
+          rel="noopenernoreferrer"
+          class="fa fa-facebook"
+        ></a>
+        <a
+          href="https://twitter.com/"
+          target="_blank"
+          rel="noopenernoreferrer"
+          class="fa fa-twitter"
+        ></a>
+        <a
+          href="https://www.instagram.com/"
+          target="_blank"
+          rel="noopenernoreferrer"
+          class="fa fa-instagram"
+        ></a>
+          
+        </div>
+   </nav>
+    <aside class="sidebar"><img src="https://i.pinimg.com/564x/67/af/72/67af7237dcf15b873ce4921648a438b3.jpg" alt="">
+        <h1>"Empoderando mujeres, creando comunidades."</h1></aside>
+    <article class="main">
+        <ul class="servicios">
+          <hr size="4px" color="black" />
+          <h2 id="SobreNosotras">Sobre Nosotras</h2>
+            <li>
+              Dar acompañamiento psicológico y jurídico a mujeres que han sido
+              víctimas algún tipo de violencia
+            </li>
+            <li>
+              Dar capacitaciones para ayudarlas a lograr su independencia económica
+            </li>
+            <li>
+              Implementar pláticas informativas para la prevención de la violencia
+              hacia las mujeres
+            </li>
+            <li>
+              Generar un espacio seguro para las mujeres que buscan acompañamiento
+            </li>
+          </ul>
+          <br>
+          <hr size="4px" color="black" />
+          <h2 id="Mision">Misión</h2>
+          <br>
+          <p>
+            Somos un centro encargado de atender y proteger a las mujeres que han
+            sido víctimas de violencia a través de el acompañamiento psicológico y
+            legal,así como cursos de empoderamiento desde la perspectiva de los
+            Derechos Humanos,la igualdad de género y el acceso de las mujeres a una
+            vida libre de violencia a fin de promover, proteger y restituir sus
+            derechos para asegurar que las niñas, jóvenes y mujeres puedan vivir con
+            dignidad, libres, seguras y en condiciones de igualdad sustantiva.
+          </p>
+          <br>
+          <hr size="4px" color="black" />
+          <h2 id="Vision">Visión</h2>
+          <br>
+          <p>
+            En el Centro de la Mujer tenemos como visión promover una vida libre de
+            violencias y garantizar la igualdad de género a través de la promoción
+            de los derechos de las mujeres con el apoyo de personal especializado y
+            profesional en materia de equidad de género, con enfoque en los derechos
+            humanos y comprometidos con la democracia, de esta forma instrumento de
+            inserción de las mujeres al desarrollo de la sociedad y de consolidación
+            de escenarios en igualdad de derechos y oportunidades entre mujeres y
+            hombres.
+          </p>
+        </article>
+        <section class="section">
+  
+            <!--<div class="container"> no sabemos si sirve o no-->
+              <div class="card1">
+                <h3><b>ASESORÍA PSICOLÓGICA</b></h3>
+                <img src="https://i.pinimg.com/736x/ea/d5/02/ead50279194c73e579252881cce31a25.jpg" alt="" height="350" width="250">
+                <a href="FormularioPsic.html" target="_blank" rel="noopenernoreferrer"><button>Más información</button></a>
+              </div>
+              <br>
+        
+              <div class="card2">
+                  <h3><b>ASESORÍA LEGAL</b></h3>
+                  <img src="https://i.pinimg.com/736x/b1/b3/71/b1b37116ffaa927eef4e34e372ceedb3.jpg" alt="" height="350" width="250" />
+                  <a href="Formulariolegal.html" target="_blank" rel="noopenernoreferrer"><button>Más información</button></a>
+              </div>
+              <br>
+        
+              <div class="card3">
+                <h3><b>CURSOS</b></h3>
+                <img src="https://i.pinimg.com/564x/1a/eb/62/1aeb620ff653231f411561fc8bfa9fac.jpg" alt="" height="350" width="250" />
+               <a href="Formulariocursos.html" target="_blank" rel="noopenernoreferrer"><button>Más información</button></a>
+                <!--Los encerramos en un a para linkearlos a los formularios-->
+              </div>
+          </section>
+          
+          <footer class="footer">
+            <p>ACERCA DE CENTRO COMUNITARIO ROOM 1</p>
+            <p>
+              Horario de atención: <br />
+              Lunes a Viernes 10:00 a.m a 18:00p.m <br />
+              Sábados de 10:00 a.m a 14:00 p.m
+            </p>
+            <p>Télefono: 52 33 32 45 63</p>
+            <nav class="ubicacion">
+              <a
+                href="https://www.google.com/maps/place/SORECE+Asociaci%C3%B3n+de+Psicologas+Feministas/@19.4459489,-99.1562981,17z/data=!3m1!4b1!4m6!3m5!1s0x85d1f9883b75cb53:0xf99f88f560139c4!8m2!3d19.4459439!4d-99.1537232!16s%2Fg%2F11h71nxfsr?entry=ttu"
+                target="_blank"
+                >Ubicación</a
+              >
+            </nav>
+            <br>
+            <p>Tus donaciones hacen posible este proyecto, ¡Gracias! </p> <br>
+            <a href="https://www.paypal.com/mx/home" target="blank">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/a/a4/Paypal_2014_logo.png" alt="" width="40px" height="40px" />
+            </a>
+          </footer>
+</body>
+</html>
+
+

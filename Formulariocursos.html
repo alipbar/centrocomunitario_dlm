@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=}, initial-scale=1.0">
+    <title>Cursos</title>
+
+    <header>
+        <p><h3>¡Nos alegra que te interese unirte a un curso! Hemos creado este espacio para ti,
+            Recuerda que NO requieres ningún tipo de material o conocimiento previo, únicamente las
+            ganas de aprender y disfrutar de tu actividad.
+            *</p>
+    <form action="">
+        <p><h2>  Ayúdanos a mantenernos en contacto contigo llenando tus datos en el siguiente formulario.
+        Todo es confidencial, tus datos están seguros y únicamente es con fines de registro y seguimiento.
+        </h2></p>
+        <label for="Nombre">Nombre</label><!--Es el como se va a llamar mi casilla-->
+        <input type="text" id="Nombre" name="Nombre" placeholder="Por favor ingresa tu nombre"><!--Placeholder es para especificar al usuario que escribir en el input-->
+        <label for="ApellidoMaterno">Primer Apellido</label>
+        <input type="text" id="ApellidoMaterno" name="ApellidoMaterno" placeholder="Por favor ingresa tu primer apellido">
+        <label for="ApellidoPaterno">Segundo Apellido</label>
+        <input type="text" id="ApellidoPaterno" name="ApellidoPaterno" placeholder="Por favor ingresa tu segundo apellido">
+       
+        <label for="">Teléfono</label>
+        <input type="number" id="Teléfono" name="Telefono" placeholder="¿A qué número podemos contactarte?">
+        <label for="">Correo electrónico</label>
+        <input type="text" name="Correo" id="Correo" placeholder="Ingresa un correo electrónico">
+       
+        <fieldset>
+            <h3><label for="INE">Muchas gracias por registrarte, si cuentas con tu documento de identificación digitalizado,
+                nos ayudará mucho para tu expediente </label></h3>
+            <p>Sube un pdf con tu identificación oficial, INE</p>
+            <input type="file" id="INE">
+            <!--Botón tipo Select-->
+            <h3>Los siguientes cursos se encuentran disponibles los martes
+                y jueves o sábados de 6 a 8 pm, podrás ingresar el día que tengas oportunidad.
+                Elige uno y posteriormente la liga para unirte a la clase en línea te llegará al correo que ingresaste en unos minutos.</h3>
+            <label for="cursos">Qué curso te interesa tomar?</label>
+            <select name="cursos" id="cursos">
+                <option value="arte">Clase de Acuarela</option>
+                <option value="idioma">Clase de inglés</option>
+                <option value="actfisica">Clase de yoga</option>
+                <option value="lectura">Grupo de lectura</option>
+
+
+            </select>
+           
+            <!--Seleccionar tipo Checkbox, selecciona más de uno-->
+            <label for="discurso">¿Qué días quieres tomar tu curso? </label>
+            <br/>
+            <input type="checkbox" name="diascurso" id="diascurso"> Lunes y Miércoles de 6 a 8
+            <input type="checkbox" name="diascurso" id="diascurso"> Martes y Viernes de 6 a 8
+            <input type="checkbox" name="diascurso" id="diascurso"> Sábados de 10 a 12
+       
+           
+            <!--Botón tipo radio, selecciona solo uno-->
+            <label for="modalidad">¿Qué modalidad prefieres</label>
+            <br/>
+            <input type="radio" name="modalidad" id="modalidad">Presencial
+            <input type="radio" name="modalidad" id="modalidad">En línea
+           
+            <button>Enviar información</button>
+        </fieldset><!--Es para agregar documentos, el usuario los sube desde su computador o móvil, aparte, como diseño lo pone dentro de un cuadrado en automático-->
+       
+   
+    </form><!--La etiqueta form es para crear un formulario-->
+    </header><!--Primer contenido o contenido principal de la página, es como el cuello del cuerpo(body)-->
+</head>
+<body>
+   
+</body>
+</html>

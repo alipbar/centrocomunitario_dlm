@@ -1,0 +1,200 @@
+
+.navbar{
+   display: justify;
+    background-color: #6E3479;
+    align-items: center;
+    color:#d6d1f5;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+}
+
+.logo img{
+    height: 100px;
+    width:100px;
+    margin-right: 20px;
+    }
+
+    .logo{
+        display: flex;
+        align-items: center;
+        margin-right: 40px;
+    }
+    nav a:hover{
+        background-color: palevioletred;
+        padding: 3px;
+        border-radius: 20px;
+        margin: 1px;
+    }
+    nav a{
+        text-decoration: none;
+        color: #D3B0C3;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+/*cambio*/ font-size: 30pt;
+/*cambio*/ padding: 10px;
+    }
+    .a{
+        text-decoration: none;
+  width: 100px; /*el ancho de los círculitos de los íconos*/
+  height: 100px;
+  line-height: 40px; /*para centrar los íconos dentro de los círculos*/
+  text-align: center;
+  background: #F176AF;
+  color: #F176AF;
+  border-radius: 50%;
+  box-shadow: 2px 2px 5px #e9cfc2;
+  transition: all 0.4s ease-in-out;
+    }
+   
+    .rrss{
+        display: flex;
+        align-items: right;
+        margin-right: 20px;
+    }
+    
+    .rrss img{
+        height: 100px;
+        width: 100px;
+        margin: 10px
+    }
+    
+    .article{
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        flex-direction: column;
+        font-style: oblique;
+        color:#d6d1f5
+    }
+    
+    .encabezado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    flex-direction: column;
+    font-style: oblique;
+    color:#d6d1f5
+    }
+
+
+    .encabezado img{
+    width: 500px;
+    height: 300px;
+    border-top-right-radius: 24px;
+    border-bottom-left-radius: 24px;
+    }
+
+    .article img{
+    display: inliblock;
+    width: 500px;
+    height: 300px;
+    border-top-right-radius: 24px;
+    border-bottom-left-radius: 24px;
+    }
+
+
+    .sidebar{
+        height: auto;
+        background-color: #d6d1f5;
+    }
+
+    .sidebar ul{
+        margin-top: 2px;
+    }
+    .section {
+        display: flex;
+        flex-direction:row;
+        gap: 10px;
+        margin: 50px;
+        justify-content:space-between; /*Esto sirve para separar las tarjetas*/
+        align-items: center;
+      }
+
+      .main{
+        font-size: 15pt;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      }
+    .card1 {
+        width: 300px;
+        height: 500px;
+        padding: 20px;
+        background-color:#F176AF;
+        text-align: center;
+        font-style: bold;
+        border-radius: 30px;
+         border-style:inherit;
+      }
+
+    .card1 p {
+        text-align:justify;
+        width: 250px;
+        padding-left: 25px;
+        width: 300px;
+        height: 500px;
+        padding: 20px;
+        text-align: center;
+        border-radius: 10px;
+        border-style:inherit;
+        font-style:oblique;
+        border-radius: 30px;
+        text-shadow: 10px;
+      }
+
+      button {
+        background:radial-gradient(50px,rgb(245, 155, 241),rgb(236, 195, 240)); /*para poner en gradiante cualquier cosa, en este caso el botón*/
+        color: #6E3479;
+/**/    font-size: 10pt;
+/**/    font-style: italic;
+        border: none;
+        padding: 30px;
+        border-radius: 20px;}
+
+      .card2 {
+        width: 300px;
+        height: 500px;
+        padding: 20px;
+        background-color:#F176AF;
+        text-align: center;
+        font-style: bold;
+        border-radius: 30px;
+         border-style:inherit;
+      }
+
+      .card2 p {
+        text-align:justify;
+        width: 250px;
+        padding-left: 25px;
+      }
+
+        .card3 {
+        width: 300px;
+        height: 500px;
+        padding: 20px;
+        background-color: #F176AF;
+        text-align: center;
+        font-style: bold;
+        border-radius: 30px;
+         border-style:inherit;
+        /*float:right sirve para posicionar una imagen de lado */
+      }
+
+      .card3 p {
+        text-align:justify;
+        width: 250px;
+        padding-left: 25px;
+      }
+
+      .footer{    
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 350px;
+        background-color:#6E3479;
+        align-items: center;
+        color: azure;
+        font-style: normal;
+        font-size: 18pt;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+  
